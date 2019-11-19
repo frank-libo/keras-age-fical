@@ -1,14 +1,14 @@
 # keras-age-fical
 一个训练并且预测 年龄/表情的代码
 
+![photo](https://github.com/frank-libo/keras-age-fical/blob/master/47f7b4d961bda30c08403d1109df461c_171315320_1_20190918073237238.png)
 用 train_datagen = ImageDataGenerator(  
                 rotation_range=30,  
                 width_shift_range=0.2,  
                 height_shift_range=0.2,  
                 shear_range=0.2,  
                 zoom_range=0.2,  
-                horizontal_flip=True,  
-        )  
+                horizontal_flip=True)   
     
 进行inceptionv3 ，EfficientNetB4 以及mini_XCEPTION 进行训练，无论取数据是直接train_datagen.flow_from_directory目录， 
 还是读取fer2013表格，效果均特别差。  
@@ -33,4 +33,4 @@ reduce_lr = ReduceLROnPlateau('val_loss', factor=0.1,
 通过测试，图像增强，optimizer和 ir reduce 都会影响结果。  
 
 
-![photo](https://github.com/frank-libo/keras-age-fical/blob/master/47f7b4d961bda30c08403d1109df461c_171315320_1_20190918073237238.png)
+
