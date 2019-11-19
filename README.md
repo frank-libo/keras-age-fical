@@ -31,3 +31,6 @@ reduce_lr = ReduceLROnPlateau('val_loss', factor=0.1,
                               patience=int(patience/4), verbose=1)
 
 通过测试，图像增强，optimizer和 ir reduce 都会影响结果。
+
+
+
