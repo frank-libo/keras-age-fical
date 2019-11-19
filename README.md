@@ -1,7 +1,7 @@
 # keras-age-fical
 一个训练并且预测 年龄/表情的代码
 
-![photo](https://github.com/frank-libo/keras-age-fical/blob/master/47f7b4d961bda30c08403d1109df461c_171315320_1_20190918073237238.png)
+![photo](https://github.com/frank-libo/keras-age-fical/blob/master/47f7b4d961bda30c08403d1109df461c_171315320_1_20190918073237238.png)  
 用 train_datagen = ImageDataGenerator(  
                 rotation_range=30,  
                 width_shift_range=0.2,  
