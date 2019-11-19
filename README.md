@@ -32,4 +32,4 @@ reduce_lr = ReduceLROnPlateau('val_loss', factor=0.1,
 通过测试，图像增强，optimizer和 ir reduce 都会影响结果。
 
 
-![photo]https://github.com/frank-libo/keras-age-fical/blob/master/47f7b4d961bda30c08403d1109df461c_171315320_1_20190918073237238.png
+![photo](https://github.com/frank-libo/keras-age-fical/blob/master/47f7b4d961bda30c08403d1109df461c_171315320_1_20190918073237238.png)
